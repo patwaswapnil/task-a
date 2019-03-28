@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  border-radius: 5%;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate;
+    transform: translate(-50%, -20%)
+}
+
+td {
+  background-color: #666;
+  border: 5px solid white;
+  font-size: 80px;
+  color: #fff;
+  border-radius: 10%;
+}#player {
+  padding: 1rem;
+}
+
+.left-margin {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -65%);
+}
+
+.position-h1 {
+  position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, 2%);
+}
+
+.position-right-user {
+  position: absolute;
+  left: 75%;
+}
+
+.position-left-user {
+  position: absolute;
+  left:20%
+}
+
